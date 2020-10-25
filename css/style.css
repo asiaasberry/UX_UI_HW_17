@@ -1,0 +1,67 @@
+.inline-block {
+    display: inline-block;
+    float: right;
+    font-family: 'Fjalla One', sans-serif;
+    color: #302D2D;
+    letter-spacing: 1px;
+
+}
+li {
+    display: inline;
+    padding: 25px;
+}
+.logo {
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    height: 50px;
+    padding: 25px;
+    float: left;
+}
+h1 {
+    float: right;
+    padding: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    color: #302D2D;
+}
+p {
+    float: left;
+    justify-content: flex-end;
+}
+button {
+    display: block;
+}
+.content {
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #302D2D;
+}
+footer {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #302D2D;
+    letter-spacing: 1px;
+}
+body {
+    background-image: url(../images/Screen\ Shot\ 2020-10-25\ at\ 5.40.48\ PM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
