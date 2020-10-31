@@ -49,6 +49,30 @@ button {
     font-family: 'Roboto', sans-serif;
     color: #302D2D;
 }
+body {
+    background-image: url(../images/Screen\ Shot\ 2020-10-25\ at\ 5.40.48\ PM.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.flexContainer {
+    display: flex;
+    width: 33%;
+    flex-direction: row;
+    margin: 25px;
+    padding: 100px;
+}
+.workGrid {
+    display: grid;
+    grid-template-areas: "Project1 Project2 Project3 Project4 Project5 Project6";
+}
+#Project1 {
+    grid-area: Project1;
+    background-image: url(../images/DESKTOP\ -\ HOME.png);
+}
+#Project2 {
+    grid-area: Project2;
+    background-image: url(../images/Home.png);
+}
 footer {
     background-color: #ffffff;
     position: absolute;
@@ -59,9 +83,8 @@ footer {
     color: #302D2D;
     letter-spacing: 1px;
 }
-body {
-    background-image: url(../images/Screen\ Shot\ 2020-10-25\ at\ 5.40.48\ PM.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+@media only screen and (max-width:600){
+    .flexContainer {
+        flex-direction: column;
+    }
 }
-
